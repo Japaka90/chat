@@ -1,0 +1,62 @@
+.left_side,
+.right_side,
+.main_part {
+    height: 750px;
+    display: inline-block;
+    float: left
+}
+
+.left_side,
+.right_side{
+    width: 20%;    
+    background: lightblue;    
+}
+
+.main_part {
+    width: 60%;
+    position: relative
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 20px
+}
+
+button {
+    position: absolute;
+    margin-top: 50px;
+    right:  50px;
+}
+
+#box {
+    width: 90%;
+    height: 20px;    
+    margin: auto;
+    margin-top: 100px;
+}
+
+.elem_item {
+    margin: auto;
+    border: solid 1px grey;
+    padding: 5px;
+    margin-top: 20px;  
+    position: relative
+}
+
+.exit {
+    width: 15px;
+    height: 15px;
+/*    border-radius: 50%;*/
+    background: url(./cute_ball_stop.png);
+    background-size: cover;
+    position: absolute;
+    right: 5px;
+    top: 3px
+}
+
+
+
+
